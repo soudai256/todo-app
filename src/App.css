@@ -1,0 +1,81 @@
+input,
+button {
+  border-radius: 1000px;
+  border: none;
+  outline: none;
+}
+
+button {
+  margin-left: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8s;
+  color: rgb(150, 150, 150);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  margin-right: 8px;
+}
+
+.todoAdd {
+  background-color: #f5945c;
+  width: 400px;
+  height: 30px;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+}
+
+.incompleteArea {
+  background-color: #92b0e7;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.complete-area {
+  background-color: #eeee52ad;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.giveup-area {
+  background-color: rgb(252, 197, 197);
+  width: 400px;
+  min-height: 100px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.giveupButton {
+  background-color: crimson;
+}
+
+.giveupButton:hover {
+  color: black;
+}
